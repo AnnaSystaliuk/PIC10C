@@ -51,10 +51,12 @@ class Card {
       // Assume Ace is always 1. 
       // Useful if you want to sort the cards.
       bool operator < (Card card2) const;
+    double value();
 
 private:
       suit_t suit;
       rank_t rank;
+    
 };
 
 
@@ -62,11 +64,18 @@ class Hand {
    public:
       // A vector of Cards
       Hand();
-
-      // You decide what functions you'll need...
-
+    int numOfCards(){return int(myCards.size());}
+    void adCard(Card NewCard);
+    double getpoints(){return totalPoints;}
+    void getAllCards();
+    void clearCards();
+    
+    
    private:
       // You decide what fields you'll need...
+    vector<Card> myCards;
+    double totalPoints = 0.0;
+    
 };
 
 
@@ -75,11 +84,18 @@ class Player {
       // Constructor. 
       //    Assigns initial amount of money
       Player(int m);
-
-      // You decide what functions you'll need...
+    void addCard(Card newCard);
+    
+    int getMoney()  {return money;};
+    void lostMoney(int lost) {money = money - lost;}
+    void wonMoney(int won) {money = money + won;}
+    Hand* getHand(){return &playerHand;}
+    void printCards();
+    void newHand();
 
    private:
       int money;
+    Hand playerHand;
       // You decide what extra fields (if any) you'll need...
 };
 
