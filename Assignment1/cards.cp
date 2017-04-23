@@ -22,7 +22,7 @@ You might or might not need these two extra libraries
 Card::Card(){
 
     srand (int(time(NULL)));
-
+    
    int r = 1 + rand() % 4;
    switch (r) {
       case 1: suit = OROS; break;
@@ -34,6 +34,7 @@ Card::Card(){
     
 
    r = 1 + rand() % 10;
+    
    switch (r) {
       case  1: rank = AS; break;
       case  2: rank = DOS; break; 

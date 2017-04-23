@@ -92,9 +92,10 @@ class Player {
     Hand* getHand(){return &playerHand;}
     void printCards();
     void newHand();
-
+    
+    
    private:
-      int money;
+    int money;
     Hand playerHand;
       // You decide what extra fields (if any) you'll need...
 };

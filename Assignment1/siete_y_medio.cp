@@ -52,7 +52,6 @@ int main(){
         
         while (GAMEON)
         {
-
             Card newCard;
             user.addCard(newCard);
             cout << "New card is :" << endl;
