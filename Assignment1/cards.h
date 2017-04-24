@@ -56,7 +56,7 @@ class Card {
 private:
       suit_t suit;
       rank_t rank;
-    
+
 };
 
 
@@ -75,7 +75,6 @@ class Hand {
       // You decide what fields you'll need...
     vector<Card> myCards;
     double totalPoints = 0.0;
-    
 };
 
 

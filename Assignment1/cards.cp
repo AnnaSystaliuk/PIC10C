@@ -21,9 +21,12 @@ You might or might not need these two extra libraries
 */
 Card::Card(){
 
-    srand (int(time(NULL)));
+    int lastRandomized = 1 + rand() % 4;
     
-   int r = 1 + rand() % 4;
+
+    int r = lastRandomized ;
+
+    
    switch (r) {
       case 1: suit = OROS; break;
       case 2: suit = COPAS; break; 
@@ -219,6 +222,7 @@ bool Card::operator < (Card card2) const {
 
 Hand::Hand()
 {
+    srand(int(time(NULL)));
 
 }
 
@@ -254,7 +258,6 @@ Player::Player(int initMoney)
 }
 void Player::addCard(Card newCard)
 {
-    srand (int(time(NULL)));
     playerHand.adCard(newCard);
 }
 void Player::printCards()

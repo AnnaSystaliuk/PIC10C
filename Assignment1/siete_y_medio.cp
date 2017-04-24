@@ -8,13 +8,13 @@
 using namespace std;
 
 // Global constants (if any)
-double DealerGame(Player dealer);
+double DealerGame(Player dealer, double points);
 
 // Non member functions declarations (if any)
-double DealerGame(Player dealer)
+double DealerGame(Player dealer, double points)
 {
 
-    while(dealer.getHand()->getpoints() <= 5.5)
+    if(points <= 5.5)
     {
         Card newCard;
         dealer.addCard(newCard);
@@ -23,6 +23,7 @@ double DealerGame(Player dealer)
         cout << "Dealer's cards: " << endl;
         dealer.printCards();
         cout << "Dealer's score is " << dealer.getHand()->getpoints() << endl;
+        return DealerGame(dealer,dealer.getHand()->getpoints());
     }
     
     return dealer.getHand()->getpoints();
@@ -46,7 +47,7 @@ int main(){
     while (user.getMoney()>0)
     {
         user.newHand();
-        cout << "Your score is " << user.getHand()->getpoints() << endl;
+        //cout << "Your score is " << user.getHand()->getpoints() << endl;
         cout << "You have " << user.getMoney() << " dollars. Enter bet: " << endl;
         cin >> betmoney;
         
@@ -67,13 +68,16 @@ int main(){
             }
             cout << "Do you want another card? y/n" << endl;
             cin >> answer;
+            cin.ignore();
+            
             if (answer == 'y')
             {
                 continue;
             }
             else if (answer == 'n')
             {
-                double DealerScore = DealerGame(dealer);
+                double DealerScore = DealerGame(dealer,dealer.getHand()->getpoints());
+                
                 if (DealerScore > 7.5)
                 {
                     cout << "Dealer is busted! You win!" << endl;
