@@ -44,6 +44,12 @@
          <string>PIC 10B. Intermediate Programming</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>PIC 10C. Advanced Programming
+</string>
+        </property>
+       </item>
       </widget>
      </item>
     </layout>
@@ -467,15 +473,6 @@
      </item>
     </layout>
    </widget>
-   <zorder>horizontalLayoutWidget</zorder>
-   <zorder>verticalLayoutWidget</zorder>
-   <zorder>homeworkSlider_4</zorder>
-   <zorder>verticalLayoutWidget_2</zorder>
-   <zorder>label_3</zorder>
-   <zorder>horizontalLayoutWidget_11</zorder>
-   <zorder>label_4</zorder>
-   <zorder>finalLabel</zorder>
-   <zorder>horizontalLayoutWidget_12</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
