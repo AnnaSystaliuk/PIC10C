@@ -2,8 +2,8 @@
 //  TetrisTests.swift
 //  TetrisTests
 //
-//  Created by E on 5/17/17.
-//  Copyright © 2017 Anna. All rights reserved.
+//  Created by E on 5/28/17.
+//  Copyright © 2017 E. All rights reserved.
 //
 
 import XCTest

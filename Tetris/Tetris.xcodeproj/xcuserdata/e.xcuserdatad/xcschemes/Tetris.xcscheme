@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0496835A1ECD3D3600719042"
+               BlueprintIdentifier = "04D52FE21EDBF882009D0E62"
                BuildableName = "Tetris.app"
                BlueprintName = "Tetris"
                ReferencedContainer = "container:Tetris.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0496836E1ECD3D3600719042"
+               BlueprintIdentifier = "04D52FFC1EDBF882009D0E62"
                BuildableName = "TetrisTests.xctest"
                BlueprintName = "TetrisTests"
                ReferencedContainer = "container:Tetris.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "049683791ECD3D3600719042"
+               BlueprintIdentifier = "04D530071EDBF882009D0E62"
                BuildableName = "TetrisUITests.xctest"
                BlueprintName = "TetrisUITests"
                ReferencedContainer = "container:Tetris.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0496835A1ECD3D3600719042"
+            BlueprintIdentifier = "04D52FE21EDBF882009D0E62"
             BuildableName = "Tetris.app"
             BlueprintName = "Tetris"
             ReferencedContainer = "container:Tetris.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0496835A1ECD3D3600719042"
+            BlueprintIdentifier = "04D52FE21EDBF882009D0E62"
             BuildableName = "Tetris.app"
             BlueprintName = "Tetris"
             ReferencedContainer = "container:Tetris.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0496835A1ECD3D3600719042"
+            BlueprintIdentifier = "04D52FE21EDBF882009D0E62"
             BuildableName = "Tetris.app"
             BlueprintName = "Tetris"
             ReferencedContainer = "container:Tetris.xcodeproj">
