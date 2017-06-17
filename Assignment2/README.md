@@ -9,4 +9,4 @@ Anna Systaliuk
 
 I designed and implemented Qt Graphical User Interface (GUI for short) that computes the grade of a student given a set of homework and exam scores for PIC 10B and 10C. I tried to make user interface similar to what we did in class. A picture of application running is at the bottom.
 
-![alt text](https://github.com/merviolli/PIC10C/raw/master/Assignment2/program.png)
+![screen shot of the program](https://github.com/merviolli/PIC10C/raw/master/Assignment2/program.png)
