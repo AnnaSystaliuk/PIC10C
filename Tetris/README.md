@@ -1,6 +1,6 @@
 # Tetris - PIC10C Final Project
 
-##How the game works
+## How the game works
 
 Blocks of different shapes appear at the top of the screen and start falling down, 
 one at a time. The player have to move the blocks left or right(by panning his finger
@@ -10,4 +10,4 @@ at least one horizontal line, it gets destroyed, score increments, and the speed
 falling blocks increases. Game continues until blocks pile up high enough so that there 
 is no place for another block to appear.
 
-##Sample run
+## Sample run
