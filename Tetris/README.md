@@ -11,3 +11,7 @@ falling blocks increases. Game continues until blocks pile up high enough so tha
 is no place for another block to appear.
 
 ## Sample run
+
+
+## Project Report
+[![Report](https://raw.githubusercontent.com/merviolli/PIC10C/master/Tetris/report.ico)](https://github.com/merviolli/PIC10C/raw/master/Tetris/reportPIC.pdf)
