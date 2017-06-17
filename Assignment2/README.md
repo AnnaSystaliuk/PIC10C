@@ -2,7 +2,7 @@
 ![C++](https://img.shields.io/badge/C%2B%2B--green.svg)
 ![QT](https://img.shields.io/badge/QT--brightgreen.svg)
 
-- Anna Systaliuk
+Anna Systaliuk
 > UCLA coursework.
 
 ## This project is a Grade Calculator.
