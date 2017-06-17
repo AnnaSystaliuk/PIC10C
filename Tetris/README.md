@@ -14,4 +14,4 @@ is no place for another block to appear.
 
 
 ## Project Report
-[![Report](https://raw.githubusercontent.com/merviolli/PIC10C/master/Tetris/report.ico)](https://github.com/merviolli/PIC10C/raw/master/Tetris/reportPIC.pdf)
+[![Report](https://raw.githubusercontent.com/merviolli/PIC10C/master/Tetris/report.svg)](https://github.com/merviolli/PIC10C/raw/master/Tetris/reportPIC.pdf)
