@@ -11,7 +11,12 @@ falling blocks increases. Game continues until blocks pile up high enough so tha
 is no place for another block to appear.
 
 ## Sample run
+The follwoing is an animated image demonstrating how the game is played 
+
+[![Screen](https://github.com/merviolli/PIC10C/raw/master/Tetris/play.gif)]
+
+if for any reasont the .gif didn't appear or didn't work, you can download the demonstration from [here](https://github.com/merviolli/PIC10C/raw/master/Tetris/play.mov)
 
 
 ## Project Report
-[![Report](https://img.shields.io/badge/PIC%2010C%20Final%20Report--red.svg)](https://github.com/merviolli/PIC10C/raw/master/Tetris/reportPIC.pdf)
+[![Report](https://raw.githubusercontent.com/merviolli/PIC10C/master/Tetris/report.svg)](https://github.com/merviolli/PIC10C/raw/master/Tetris/reportPIC.pdf)
