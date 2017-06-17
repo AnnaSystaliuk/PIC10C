@@ -13,7 +13,7 @@ is no place for another block to appear.
 ## Sample run
 The follwoing is an animated image demonstrating how the game is played 
 
-(https://github.com/merviolli/PIC10C/raw/master/Tetris/play.gif)
+[!Play](https://github.com/merviolli/PIC10C/raw/master/Tetris/play.gif)
 
 if for any reasont the .gif didn't appear or didn't work, you can download the demonstration from [here](https://github.com/merviolli/PIC10C/raw/master/Tetris/play.mov)
 
